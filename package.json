@@ -1,0 +1,16 @@
+{
+  "name": "urbano-nursery",
+  "version": "1.0.0",
+  "description": "Urbano Nursery — Full-Stack Gardening Marketplace (MERN)",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"bgGreen.bold,bgBlue.bold\" \"npm run server\" \"npm run client\"",
+    "seed": "cd server && npm run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
