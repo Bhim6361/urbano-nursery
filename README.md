@@ -1,3 +1,4 @@
+
 # Urbano Nursery — Full-Stack Gardening Marketplace (MERN)
 
 Welcome to **Urbano Nursery**, a complete full-stack web marketplace inspired by modern nurseries and sustainable living websites. It brings plant enthusiasts, local botanical nurseries, and certified professional gardeners together onto one unified platform.
@@ -218,3 +219,6 @@ Urbano Nursery/
 - Protected server routes with JWT middleware verifying user existence and active status.
 - Server-side price calculations and stock availability validation.
 - Clean separation of concerns with modular controllers, models, and routes.
+=======
+# urbano-nursery
+>>>>>>> 2a5a51c9afb18d8c87e725f3e9cf1abbffb46ac7
